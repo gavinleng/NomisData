@@ -52,7 +52,7 @@ def now():
 
 
 parser = argparse.ArgumentParser(
-    description='Extract online Youth agelessness Data Excel file Section 1 to .csv file.')
+    description='Extract online NOMIS Data, specially for "Youth Unemployment Data" to .csv file.')
 parser.add_argument("--generateConfig", "-g", help="generate a config file called config_Yageless.json",
                     action="store_true")
 parser.add_argument("--configFile", "-c", help="path for config file")
